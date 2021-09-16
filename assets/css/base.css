@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+:root {
+
+    /* background color */
+    --bgcolor-01: #4E4E72;
+    --bgcolor-02: #8F155C;
+
+    /* neutral */
+    --neutral-text: #292929;
+    --neutral-background: #F9F9F9;
+    --neutral-box: #E5E5E5;
+    --neutral-mark: #C1D4DE;
+
+    /* fonts */
+    --ubuntu: 'Ubuntu', sans-serif; ;
+    --ubuntu-mono: 'Ubuntu Mono', monospace;;
+}
+
+body {
+    color: var(--neutral-text);
+    font-family: var(--ubuntu);
+}
