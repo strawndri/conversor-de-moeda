@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(180deg, var(--color-01), var(--color-02));
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+main {
+    background-color: var(--neutral-background);
+    width: 25em;
+    margin: 8em auto;
+    padding: 1em 2em 5em 2em;
+    border-radius: 20px 1px;
+}
+
+#title {
+    font-size: 2em;
+    font-family: var(--ubuntu-mono);
+    color: var(--color-01);
+    background-color: var(--neutral-mark);
+    padding: .2em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+form {
+    margin: 2em 0;
+}
+
