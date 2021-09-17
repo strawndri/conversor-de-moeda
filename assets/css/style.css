@@ -27,3 +27,36 @@ form {
     margin: 2em 0;
 }
 
+.form-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.group input {
+    font-size: 1.1em;
+    margin: .5em 0;
+    width: 60px;
+}
+
+.group select {
+    margin: .5em 0;
+    padding: .5em;
+}
+
+.button {
+    font-family: var(--ubuntu);
+    font-size: 1.05em;
+    width: 10rem;
+    padding: 1em 0;
+    background-color: var(--neutral-box);
+    border-radius: 10px;
+    border: none;
+}
+
+.button:hover {
+    font-w
+}
+
+
+

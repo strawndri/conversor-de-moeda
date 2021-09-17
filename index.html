@@ -11,22 +11,23 @@
     <body>
         <main class="main">
             <h1 id="title">Conversor de Real</h1>
-            <form class="">
-                <fieldset>
-                    <legend>Converter Moeda</legend>
-                    <label>
-                        Valor (R$):
-                        <input type="number">
-                    </label>
-                    <label>
-                        Converter para:
-                        <select>
-                            <option>Dólar Americano</option>
-                            <option>Euro</option>
-                            <option>Bitcoin</option>
+
+            <form class="form">                    
+                    <div class="form-group">
+                        <field class="group">
+                            <label class="group__label" for="realValue">Valor (R$): </label>
+                        <input class="control" type="number" class="input" id="realValue">
+                        </field>
+                        
+                        <field class="group">
+                            <label class="group__label" for="currency">Converter para:</label>
+                        <select id="currency">
+                            <option value="dolar-americano">Dólar Americano</option>
+                            <option value="euro">Euro</option>
+                            <option value="bitcoin">Bitcoin</option>
                         </select>
-                    </label>
-                </fieldset>
+                    </field>
+                    </div>
                 <button class="button" type="submit">Converter</button>
             </form>
 
