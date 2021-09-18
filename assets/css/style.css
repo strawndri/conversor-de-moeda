@@ -70,8 +70,14 @@ img {
     display: block;
 }
 
-.result {
-    padding: .5em 0 2em 0;
+#message {
+    text-align: center;
+    color: var(--color-02);
+    margin-bottom: .5em;
+}
+
+#result {
+    text-align: center;
     font-weight: bold;
     font-size: 1.2em;
 }
@@ -81,7 +87,8 @@ img {
     font-family: var(--ubuntu);
     font-size: 1.05em;
     width: 15rem;
-    padding: 1em 0;
+    margin-bottom: 1.5em;
+    padding: .5em 0 1em 0;
     background-color: var(--color-03);
     border-radius: 5px;
     border: none;
@@ -94,7 +101,6 @@ img {
     background-color: #ad4883;
     cursor: pointer;
 }
-
 
 /* Resposive */
 

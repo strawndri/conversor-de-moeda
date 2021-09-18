@@ -17,13 +17,13 @@
 					<form class="form">                    
 						<div class="form-group">
                             
-							<input class="control" type="text" class="input" id="realValue" placeholder="Valor em Real (R$)">
+							<input class="control" type="text" class="input" id="realValue" placeholder="Valor em Real (R$)" required>
                         
 							<fieldset class="group-currency">
 									<legend class="group-currency__title" for="currency">Converter para:</legend>
 
 									<label class="group-currency__label">
-											<input type="radio" id="dolarAmericano" name="currency">
+											<input type="radio" id="usd" name="currency" checked>
 											Dólar Americano
 									</label>
 
@@ -38,30 +38,33 @@
 									</label>
 
 									<label class="group-currency__label">
-										<input type="radio" id="francoSuico" name="currency">
+										<input type="radio" id="swissFranc" name="currency">
 										Franco Suíço
 									</label>
 
 									<label class="group-currency__label">
-										<input type="radio" id="pesoArgentino" name="currency">
+										<input type="radio" id="argentinePeso" name="currency">
 										Peso Argentino
 									</label>
 
 									<label class="group-currency__label">
-										<input type="radio" id="iene" name="currency">
+										<input type="radio" id="japaneseYen" name="currency">
 										Iene
 									</label>		
 									
 									<label class="group-currency__label">
-										<input type="radio" id="libraEsterlina" name="currency">
+										<input type="radio" id="poundSterling" name="currency">
 										Libra Esterlina
 									</label>
 							</fieldset>
             </div>
-
-            <p class="result">oi</p>
-            <button class="button" type="submit" onclick="Converter()">Converter</button>
+            <button class="button" type="button" onclick="Convert()">Converter</button>
           </form>
+
+        <div>
+          <p id="message"></p>
+          <p id="result" ></p>
+        </div>
         </main>
 
       <script src="assets/js/currency.js"></script>
