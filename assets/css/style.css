@@ -8,6 +8,7 @@ main {
     background-color: var(--neutral-white);
     width: 19em;
     margin: 4em auto;
+    height: 27em;
     padding: 2em 2em;
     border-radius: 20px 1px;
     box-shadow: 6px 3px 14px 0px #00000030;
@@ -56,7 +57,7 @@ img {
     border: none;
     padding: .5em 1.2em;
     font-size: 1.05em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 
 }
 
@@ -69,13 +70,18 @@ img {
     display: block;
 }
 
+.result {
+    padding: .5em 0 2em 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 .button {
     justify-self: end;
     font-family: var(--ubuntu);
     font-size: 1.05em;
     width: 15rem;
     padding: 1em 0;
-    margin-top: 2em;
     background-color: var(--color-03);
     border-radius: 5px;
     border: none;
