@@ -5,10 +5,12 @@
     /* principal colors */
     --color-01: #4E4E72;
     --color-02: #8F155C;
+    --color-03: #CD559B;
+
 
     /* neutral */
-    --neutral-text: #292929;
-    --neutral-background: #F9F9F9;
+    --neutral-black: #292929;
+    --neutral-white: #F9F9F9;
     --neutral-box: #E5E5E5;
     --neutral-mark: #C1D4DE;
 
@@ -18,6 +20,6 @@
 }
 
 body {
-    color: var(--neutral-text);
+    color: var(--neutral-black);
     font-family: var(--ubuntu);
 }

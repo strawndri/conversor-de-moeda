@@ -10,36 +10,58 @@
     </head>
     <body>
         <main class="main">
-            <h1 id="title">Conversor de Real</h1>
+					<img src="assets/img/money-coin-svgrepo-com.svg" alt="Moeda">
 
-            <form class="form">                    
-                    <div class="form-group">
+					<h1 id="title">Conversor de Real</h1>
+
+					<form class="form">                    
+						<div class="form-group">
                             
-                        <input class="control" type="text" class="input" id="realValue" placeholder="Valor em Real (R$)">
+							<input class="control" type="text" class="input" id="realValue" placeholder="Valor em Real (R$)">
                         
-                        <fieldset class="group">
-                            <legend class="group__title" for="currency">Converter para:</legend>
+							<fieldset class="group-currency">
+									<legend class="group-currency__title" for="currency">Converter para:</legend>
 
-                            <label class="group__label">
-                                <input type="radio" id="dolarAmericano" name="currency">
-                                Dólar Americano
-                            </label>
+									<label class="group-currency__label">
+											<input type="radio" id="dolarAmericano" name="currency">
+											Dólar Americano
+									</label>
 
-                            <label class="group__label">
-                                <input type="radio" id="euro" name="currency">
-                                Euro
-                            </label>
+									<label class="group-currency__label">
+											<input type="radio" id="euro" name="currency">
+											Euro
+									</label>
 
-                            <label class="group__label">
-                                <input type="radio" id="bitcoin" name="currency">
-                                Bitcoin
-                            </label>
-                        </fieldset>
-                    </div>
-                <button class="button" type="submit">Converter</button>
-            </form>
+									<label class="group-currency__label">
+											<input type="radio" id="bitcoin" name="currency">
+											Bitcoin
+									</label>
 
-            <p class="result"></p>
+									<label class="group-currency__label">
+										<input type="radio" id="francoSuico" name="currency">
+										Franco Suíço
+									</label>
+
+									<label class="group-currency__label">
+										<input type="radio" id="pesoArgentino" name="currency">
+										Peso Argentino
+									</label>
+
+									<label class="group-currency__label">
+										<input type="radio" id="iene" name="currency">
+										Iene
+									</label>		
+									
+									<label class="group-currency__label">
+										<input type="radio" id="libraEsterlina" name="currency">
+										Libra Esterlina
+									</label>
+							</fieldset>
+            </div>
+            <button class="button" type="submit">Converter</button>
+          </form>
+
+          <p class="result"></p>
         </main>
     </body>
 </html>
