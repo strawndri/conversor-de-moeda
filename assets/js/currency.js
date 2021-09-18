@@ -17,43 +17,43 @@ function Convert() {
         switch (currency) {
 
             case ("usd"):
-                mResult = "Real (R$) para Dólar Americano (U$)"
+                mResult = "Dólar Americano (U$) para Real (R$)"
                 cValue = 5.29
                 break;
 
             case ("euro"):
-                mResult = "Real (R$) para Euro (€)"
+                mResult = "Euro (€) para Real (R$)"
                 cValue = 6.20
                 break;
 
             case ("bitcoin"):
-                mResult = "Real (R$) para Bitcoin (BTC)"
+                mResult = "Bitcoin (BTC) para Real (R$)"
                 cValue = 253527.72
                 break;
 
             case ("swissFranc"):
-                mResult = "Real (R$) para Franco Suíço (CHF)"
+                mResult = "Franco Suíço (CHF) para Real (R$)"
                 cValue = 5.67
                 break;
 
             case ("argentinePes"):
-                mResult = "Real (R$) para Peso Argentino ($)"
+                mResult = "Peso Argentino ($) para Real (R$)"
                 cValue = 0.054
                 break;
 
             case ("japaneseYen"):
-                mResult = "Real (R$) para Iene (¥)"
+                mResult = "Iene (¥) para Real (R$)"
                 cValue = 0.048
                 break;
 
             case ("poundSterling"):
-                mResult = "Real (R$) para Libra Esterlina (£)"
+                mResult = "Libra Esterlina (£) para Real (R$)"
                 cValue = 7.27
                 break;
                         
         }
 
-        var newValue = realValue * cValue
+        var newValue = (realValue * cValue).toFixed(2)
         message.innerHTML = mResult
         result.innerHTML = "R$ " + newValue
     }

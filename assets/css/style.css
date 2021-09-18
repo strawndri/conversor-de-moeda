@@ -16,7 +16,7 @@ main {
 
 img {
     position: absolute;
-    width: 6em;
+    width: 6.5em;
     top: 55px;
     left: auto;
     margin-left: -4rem;
@@ -24,19 +24,28 @@ img {
 }
 
 @keyframes dinamic-image {
-    from {top: 45px;}
+    from {top: 50px;}
 
     to {top: 65px;};
 }
 
+.box-principal {
+    font-family: var(--ubuntu-mono);
+    background-color: var(--neutral-mark);
+    border-radius: 0px 20px 20px 0;
+    padding: .2em .25em .2em 3em;
+    font-weight: bold;
+}
+
 #title {
     font-size: 1.8em;
-    font-family: var(--ubuntu-mono);
     color: var(--color-01);
-    background-color: var(--neutral-mark);
-    padding: .2em .25em .2em 1.5em;
-    font-weight: bold;
-    border-radius: 0px 20px 20px 0;
+}
+
+#subtitle {
+    font-size: 1em;
+    color: var(--color-02);
+    margin-top: .2em;
 }
 
 .form {

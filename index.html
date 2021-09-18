@@ -12,15 +12,18 @@
         <main class="main">
 					<img id="image" src="assets/img/money-coin-svgrepo-com.svg" alt="Moeda">
 
-					<h1 id="title">Conversor de Real</h1>
+					<div class="box-principal">
+            <h1 id="title">Conversor de Moeda</h1>
+            <h2 id="subtitle">Converta valores para Real (R$)</h2>
+          </div>
 
 					<form class="form">                    
 						<div class="form-group">
                             
-							<input class="control" type="text" class="input" id="realValue" placeholder="Valor em Real (R$)" required>
+							<input class="control" type="text" class="input" id="realValue" placeholder="Valor a ser convertido" required>
                         
 							<fieldset class="group-currency">
-									<legend class="group-currency__title" for="currency">Converter para:</legend>
+									<legend class="group-currency__title" for="currency">Escolha abaixo a moeda:</legend>
 
 									<label class="group-currency__label">
 											<input type="radio" id="usd" name="currency" checked>
