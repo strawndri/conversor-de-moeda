@@ -14,19 +14,27 @@
 
             <form class="form">                    
                     <div class="form-group">
-                        <field class="group">
-                            <label class="group__label" for="realValue">Valor (R$): </label>
-                        <input class="control" type="number" class="input" id="realValue">
-                        </field>
+                            
+                        <input class="control" type="text" class="input" id="realValue" placeholder="Valor em Real (R$)">
                         
-                        <field class="group">
-                            <label class="group__label" for="currency">Converter para:</label>
-                        <select id="currency">
-                            <option value="dolar-americano">Dólar Americano</option>
-                            <option value="euro">Euro</option>
-                            <option value="bitcoin">Bitcoin</option>
-                        </select>
-                    </field>
+                        <fieldset class="group">
+                            <legend class="group__title" for="currency">Converter para:</legend>
+
+                            <label class="group__label">
+                                <input type="radio" id="dolarAmericano" name="currency">
+                                Dólar Americano
+                            </label>
+
+                            <label class="group__label">
+                                <input type="radio" id="euro" name="currency">
+                                Euro
+                            </label>
+
+                            <label class="group__label">
+                                <input type="radio" id="bitcoin" name="currency">
+                                Bitcoin
+                            </label>
+                        </fieldset>
                     </div>
                 <button class="button" type="submit">Converter</button>
             </form>
