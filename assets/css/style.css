@@ -26,8 +26,7 @@ img {
     font-family: var(--ubuntu-mono);
     color: var(--color-01);
     background-color: var(--neutral-mark);
-    padding: .2em .25em .2em 1em;
-    text-align: center;
+    padding: .2em .25em .2em 1.5em;
     font-weight: bold;
     border-radius: 0px 20px 20px 0;
 }
@@ -84,4 +83,13 @@ img {
 }
 
 
+/* Resposive */
+
+@media screen and (min-width: 600px) {
+
+    main{
+        width: 24em;  
+    }  
+
+}
 
