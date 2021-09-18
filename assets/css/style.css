@@ -19,6 +19,13 @@ img {
     top: 55px;
     left: auto;
     margin-left: -4rem;
+    animation: dinamic-image 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes dinamic-image {
+    from {top: 45px;}
+
+    to {top: 65px;};
 }
 
 #title {
