@@ -9,6 +9,7 @@ function Convert() {
 
     if (realValue == "NaN") {
         message.innerHTML = "O valor digitado é inválido!"
+        result.innerHTML = ""
 
     } else {
         var mResult, symbol, cValue
