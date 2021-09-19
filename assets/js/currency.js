@@ -36,7 +36,7 @@ function Convert() {
                 cValue = 5.67
                 break;
 
-            case ("argentinePes"):
+            case ("argentinePeso"):
                 mResult = "Peso Argentino ($) para Real (R$)"
                 cValue = 0.054
                 break;
