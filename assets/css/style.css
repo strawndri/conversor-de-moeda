@@ -6,46 +6,48 @@ body {
 
 main {
     background-color: var(--neutral-white);
-    width: 19em;
-    margin: 4em auto;
-    height: 27em;
-    padding: 2em 2em;
+    width: 14em;
+    margin: 1em auto;
+    height: 80%;
+    padding: 2em 1.5em;
     border-radius: 20px 1px;
     box-shadow: 6px 3px 14px 0px #00000030;
 }
 
-img {
+#image {
     position: absolute;
-    width: 6.5em;
-    top: 55px;
+    width: 4.5em;
     left: auto;
-    margin-left: -4rem;
+    margin-left: -2.6rem;
     animation: dinamic-image 1.5s ease-in-out infinite alternate;
 }
 
 @keyframes dinamic-image {
-    from {top: 50px;}
+    from {top: 15px;}
 
-    to {top: 65px;};
+    to {top: 30px;};
 }
 
 .box-principal {
     font-family: var(--ubuntu-mono);
-    background-color: var(--neutral-mark);
-    border-radius: 0px 20px 20px 0;
-    padding: .2em .25em .2em 3em;
+    margin: -.5em -.6em;
     font-weight: bold;
+    text-align: center;
 }
 
 #title {
-    font-size: 1.8em;
+    background-color: var(--neutral-mark);
+    border-radius: 10px;
+    padding: .2em 1.5em;
+    font-size: 1.5em;
     color: var(--color-01);
 }
 
 #subtitle {
     font-size: 1em;
     color: var(--color-02);
-    margin-top: .2em;
+    margin-top: .8em;
+    text-align: center;
 }
 
 .form {
@@ -112,6 +114,34 @@ img {
 }
 
 /* Resposive */
+
+@media screen and (min-width: 400px) {
+
+    #image {
+        margin-left: -4.3em;
+    }
+
+    @keyframes dinamic-image {
+        from {top: 60px;}
+    
+        to {top: 75px;};
+    }
+
+    main {
+        width: 16em;
+        margin: 4em auto;
+        height: 27em;
+    }
+
+    .box-principal {
+        text-align: start;
+    }
+
+    #title {
+        padding: .2em 1.2em;
+    }
+
+}
 
 @media screen and (min-width: 600px) {
 
