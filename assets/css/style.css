@@ -5,20 +5,21 @@ body {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2em;
+    height: 100vh;
     background-color: var(--neutral-white);
-    width: 14em;
-    margin: 1em auto;
-    height: 80%;
-    padding: 2em 1.5em;
-    border-radius: 20px 1px;
-    box-shadow: 6px 3px 14px 0px #00000030;
+    /* border-radius: 20px 1px;
+    box-shadow: 6px 3px 14px 0px #00000030; */
 }
 
 #image {
     position: absolute;
-    width: 4.5em;
+    width: 3.5em;
     left: auto;
-    margin-left: -2.6rem;
+    margin-left: -1.5em;
     animation: dinamic-image 1.5s ease-in-out infinite alternate;
 }
 
@@ -30,7 +31,6 @@ main {
 
 .box-principal {
     font-family: var(--ubuntu-mono);
-    margin: -.5em -.6em;
     font-weight: bold;
     text-align: center;
 }
@@ -38,7 +38,8 @@ main {
 #title {
     background-color: var(--neutral-mark);
     border-radius: 10px;
-    padding: .2em 1.5em;
+    padding: .4em;
+    margin-top: -2em;
     font-size: 1.5em;
     color: var(--color-01);
 }
@@ -68,7 +69,7 @@ main {
     border: none;
     padding: .5em 1.2em;
     font-size: 1.05em;
-    margin-bottom: 1.5em;
+    margin: .5em 0 1.5em 0;
 
 }
 
@@ -79,6 +80,31 @@ main {
 
 .group-currency__label {
     display: block;
+}
+
+.button {
+    justify-self: end;
+    font-family: var(--ubuntu);
+    font-size: 1.05em;
+    width: 15rem;
+    margin-bottom: 1.5em;
+    padding: .8em 0;
+    background-color: var(--color-03);
+    border-radius: 5px;
+    border: none;
+    color: var(--neutral-white);
+    box-shadow: 5px 2px 10px 0px #00000030;
+    transition: .5s;
+}
+
+.button:hover {
+    background-color: #ad4883;
+    cursor: pointer;
+}
+
+.box-result {
+    height: .5em;
+    display: inline-block;
 }
 
 #message {
@@ -93,24 +119,5 @@ main {
     font-size: 1.2em;
 }
 
-.button {
-    justify-self: end;
-    font-family: var(--ubuntu);
-    font-size: 1.05em;
-    width: 15rem;
-    margin-bottom: 1.5em;
-    padding: .5em 0 1em 0;
-    background-color: var(--color-03);
-    border-radius: 5px;
-    border: none;
-    color: var(--neutral-white);
-    box-shadow: 5px 2px 10px 0px #00000030;
-    transition: .5s;
-}
-
-.button:hover {
-    background-color: #ad4883;
-    cursor: pointer;
-}
 
 /* Resposive */
