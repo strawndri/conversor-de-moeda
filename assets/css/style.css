@@ -7,7 +7,6 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 0 1.8em;
     height: 100vh;
     background-color: var(--neutral-white);
@@ -39,7 +38,7 @@ main {
     background-color: var(--neutral-mark);
     border-radius: 10px;
     padding: .4em 0;
-    margin-top: -2em;
+    margin-top: 1em;
     font-size: 1.5em;
     color: var(--color-01);
 }
