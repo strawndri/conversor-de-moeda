@@ -8,7 +8,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 2em;
+    padding: 0 1.8em;
     height: 100vh;
     background-color: var(--neutral-white);
     /* border-radius: 20px 1px;
@@ -17,7 +17,7 @@ main {
 
 #image {
     position: absolute;
-    width: 3.5em;
+    width: 3.3em;
     left: auto;
     margin-left: -1.5em;
     animation: dinamic-image 1.5s ease-in-out infinite alternate;
@@ -38,7 +38,7 @@ main {
 #title {
     background-color: var(--neutral-mark);
     border-radius: 10px;
-    padding: .4em;
+    padding: .4em 0;
     margin-top: -2em;
     font-size: 1.5em;
     color: var(--color-01);
@@ -103,7 +103,7 @@ main {
 }
 
 .box-result {
-    height: .6em;
+    height: .2em;
     display: inline-block;
 }
 
