@@ -132,3 +132,29 @@ main {
         display: block;
     }
 }
+
+@media screen and (min-width: 425px) {
+
+    main {
+        justify-content: center;
+        width: 20em;
+        padding: 0 1em;
+        border-radius: 20px 1px;
+        box-shadow: 6px 3px 14px 0px #00000030;
+        margin: auto auto;
+        height: auto;
+    }
+
+    .form-group {
+        margin: 1em 0 1em 0;
+    }
+
+    #realValue {
+        margin-bottom: 1.5em;
+    }
+
+    .box-result {
+        display: inline-block;
+        height: 4em;
+    }
+}
