@@ -22,7 +22,6 @@ main {
 }
 
 #image {
-    display: none;
     position: absolute;
     width: 3.3em;
     left: auto;
@@ -128,9 +127,6 @@ main {
 /* Resposive */
 
 @media screen and (min-width: 375px) {
-    #image {
-        display: block;
-    }
 
     @keyframes dinamic-image {
         from {top: 60px;}
