@@ -1,12 +1,19 @@
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
     background-image: linear-gradient(180deg, var(--color-01), var(--color-02));
     background-repeat: no-repeat;
     background-size: 100% 100vh;
+
 }
 
 main {
     display: flex;
     flex-direction: column;
+    width: 100%;
     padding: 0 1.8em;
     height: 100vh;
     background-color: var(--neutral-white);
@@ -15,6 +22,7 @@ main {
 }
 
 #image {
+    display: none;
     position: absolute;
     width: 3.3em;
     left: auto;
@@ -69,7 +77,6 @@ main {
     padding: .5em 1.2em;
     font-size: 1.05em;
     margin: .5em 0 1.5em 0;
-
 }
 
 .group-currency__title {
@@ -119,3 +126,9 @@ main {
 
 
 /* Resposive */
+
+@media screen and (min-width: 375px) {
+    #image {
+        display: block;
+    }
+}
