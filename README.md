@@ -1,7 +1,7 @@
 <h1 align="center"> Conversor de Moeda</h1>
 
 <p align="center">
-  <img src="https://i.imgur.com/uBmbvZv.png" alt='Banner. Imagem com fundo cor-de-rosa com uma borda cinza escuro em seu entorno. Ao centro, há um retângulo cinza escuro com o texto: "Alura: Imersão React 2020". Ao lado esquerdo desse retângulo, um desenho de capacete de mergulhador cinza com o ícone da biblioteca React em azul; abaixo do capacete, encontra-se o texto "Imersão React". Ao lado direito do retângulo, há o ícone da biblioteca React, que é um círculo preto com três elipses pretas. Abaixo do retângulo cinza, há um retângulo menor cor-de-rosa, nele está escrito "Tutubashow".' />
+  <img src="https://i.imgur.com/uBmbvZv.png" alt='Banner. Imagem com fundo cor-de-rosa com uma borda cinza escuro em seu entorno. Ao centro, há um retângulo cinza escuro com o texto: "Conversor de Moeda". Nos lados direito e esquerdo do retângulo, há moedas amarelas com o símbolo de sifrão na região central.' />
 </p>
 
 <p align="center">
